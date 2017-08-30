@@ -1,0 +1,50 @@
+ html,
+ body {
+     font-family: 'Baloo Bhaijaan', cursive;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+ }
+ 
+ h1 {
+     background-color: #000;
+     color: #fff;
+     height: 100px;
+     margin-bottom: 100px;
+     padding: 15px;
+     width: 100%;
+ }
+ 
+ button {
+     height: 50px;
+     margin: 10px;
+     width: 150px;
+ }
+ 
+ .count {
+     font-size: 150px;
+     left: 44%;
+     position: absolute;
+ }
+ 
+ .count-leave {
+     opacity: 1;
+     transform: translateY(0) scale(1);
+ }
+ 
+ .count-leave-active {
+     opacity: 0;
+     transform: translateY(-100) scale(0);
+     transition: 1s;
+ }
+ 
+ .count-enter {
+     opacity: 0;
+     transform: translateY(100%) scale(0);
+ }
+ 
+ .count-enter-active {
+     opacity: 1;
+     transform: translateY(0) scale(1);
+     transition: 1s;
+ }
